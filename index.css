@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/specimen/Inter');
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+  
+.heading {
+    text-align: center;
+    margin-left: auto;
+}
+  
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+  
+.tabs button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+  
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+  
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.product-details {
+    margin: 0px;
+}
+  
+.product {
+    position: relative;
+}
+  
+.product-image-container {
+    position: relative;
+}
+  
+.product img {
+    max-width: 100%;
+    height: 450px;
+}
+  
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+  
+.add-to-cart-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.compare-price{
+    color: gray;
+    text-decoration: line-through;
+}
+.discount{
+    color: red;
+
+}
+.wrap-titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+}
